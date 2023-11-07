@@ -1,0 +1,5 @@
+Student_id : 2213170034
+Student name : Waranon Nimmalairat
+Major : IT
+Level : 1
+Faculty : IT
