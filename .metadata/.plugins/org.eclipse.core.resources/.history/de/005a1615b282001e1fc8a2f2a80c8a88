@@ -1,0 +1,14 @@
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		final double BUFFET = 299;
+		int numberofcustomer = 5;
+		double netPrice = BUFFET * numberofcustomer;
+		System.out.println("Buffet of 5 customers is "+netPrice+"0");
+		double serviceCharge = netPrice+(netPrice*3/100);
+		System.out.println("Add Service Charge 3% is "+serviceCharge);
+
+	}
+
+}

@@ -1,0 +1,24 @@
+import javax.swing.*;//1. import library for input data from dialog box
+public class Example4 {
+
+	public static void main(String[] args) {
+		//2.input data from dialog box
+		String productname = JOptionPane.showInputDialog("Input Product Name: ");//รับข้อความเเล้วไม่ต้องแปลง
+		//input unitprice from dialog box
+		String strunit = JOptionPane.showInputDialog("Input Product Unit: ");//รับจากข้อความเเล้วแปลงข้อมูลเป็นตัวเลข
+		//convert string to int
+		int productunit = Integer.parseInt(strunit); 
+		
+		//input price per unit from dialog box
+		String strprice = JOptionPane.showInputDialog("Input Price per unit: ");
+		float priceperunit = Float.parseFloat(strprice);
+		
+		//calculate total price
+		float totalprice = productunit * priceperunit;
+		
+		//display data to dialog box
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		final float BUFFET = 299;
+		int numberofcustomer = 5;
+		float netPrice = BUFFET * numberofcustomer;
+		System.out.println("Buffet of 5 customers is "+netPrice);
+		float serviceCharge = netPrice+(netPrice*3/100);
+		System.out.println("Add Service Charge 3% is "+serviceCharge);
+
+	}
+
+}

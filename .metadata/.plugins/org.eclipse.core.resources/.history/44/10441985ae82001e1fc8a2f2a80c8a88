@@ -1,0 +1,8 @@
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		string isbn="IB2-6325-85-4-1";
+	}
+
+}

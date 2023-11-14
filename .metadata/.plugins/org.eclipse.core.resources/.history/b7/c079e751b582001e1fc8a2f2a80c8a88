@@ -1,0 +1,19 @@
+import java.util.*;//1.Import for input data from keyboard
+public class Example3 {
+
+	public static void main(String[] args) {
+		//2. create class Scanner for input data from Keyboard
+		Scanner input = new Scanner(System.in);
+		//3. display and input data
+		System.out.print("Input product name   : ");
+		String productName = input.nextLine();
+		System.out.print("Input product unit   : ");
+		int productunit = input.nextInt();
+		System.out.print("Input price per unit : ");
+		float priceperunit = input.nextFloat();
+		System.out.println();
+		float total = productunit * priceperunit;
+		System.out.println("Total Price is "+total+"baht.");
+	}
+
+}
