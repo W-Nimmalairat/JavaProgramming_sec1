@@ -1,4 +1,4 @@
 ID : 2213170034
 Name-Surname : Waranon Nimmalairat
-Date : Dec-26-2023
-Topic : Array and Array Method
+Date : Jan-16-2023
+Topic : Encapsulation Concept
